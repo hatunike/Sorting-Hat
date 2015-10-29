@@ -14,6 +14,10 @@
 		0040208A1BCDC6EA00FD7E6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004020881BCDC6EA00FD7E6B /* LaunchScreen.storyboard */; };
 		004020951BCDC6EA00FD7E6B /* SortingHatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004020941BCDC6EA00FD7E6B /* SortingHatTests.swift */; };
 		004020A01BCDC6EA00FD7E6B /* SortingHatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0040209F1BCDC6EA00FD7E6B /* SortingHatUITests.swift */; };
+		007233C51BD6F82B00848FFF /* HogwartsHouses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007233C41BD6F82B00848FFF /* HogwartsHouses.swift */; settings = {ASSET_TAGS = (); }; };
+		007233C71BD708D600848FFF /* UIView+SortingHat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007233C61BD708D600848FFF /* UIView+SortingHat.swift */; settings = {ASSET_TAGS = (); }; };
+		0072340F1BD9991600848FFF /* PotionRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0072340E1BD9991600848FFF /* PotionRecipe.swift */; settings = {ASSET_TAGS = (); }; };
+		00F116321BE03D5C002CDCA3 /* HousePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F116311BE03D5C002CDCA3 /* HousePickerViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		0040209B1BCDC6EA00FD7E6B /* SortingHatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SortingHatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0040209F1BCDC6EA00FD7E6B /* SortingHatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingHatUITests.swift; sourceTree = "<group>"; };
 		004020A11BCDC6EA00FD7E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		007233C41BD6F82B00848FFF /* HogwartsHouses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HogwartsHouses.swift; sourceTree = "<group>"; };
+		007233C61BD708D600848FFF /* UIView+SortingHat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+SortingHat.swift"; sourceTree = "<group>"; };
+		0072340E1BD9991600848FFF /* PotionRecipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PotionRecipe.swift; sourceTree = "<group>"; };
+		00F116311BE03D5C002CDCA3 /* HousePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HousePickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +107,11 @@
 			children = (
 				0040207F1BCDC6EA00FD7E6B /* AppDelegate.swift */,
 				004020811BCDC6EA00FD7E6B /* ViewController.swift */,
+				007233C61BD708D600848FFF /* UIView+SortingHat.swift */,
 				004020831BCDC6EA00FD7E6B /* Main.storyboard */,
+				007233C41BD6F82B00848FFF /* HogwartsHouses.swift */,
+				00F116311BE03D5C002CDCA3 /* HousePickerViewController.swift */,
+				0072340E1BD9991600848FFF /* PotionRecipe.swift */,
 				004020861BCDC6EA00FD7E6B /* Assets.xcassets */,
 				004020881BCDC6EA00FD7E6B /* LaunchScreen.storyboard */,
 				0040208B1BCDC6EA00FD7E6B /* Info.plist */,
@@ -256,7 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				004020821BCDC6EA00FD7E6B /* ViewController.swift in Sources */,
+				007233C71BD708D600848FFF /* UIView+SortingHat.swift in Sources */,
 				004020801BCDC6EA00FD7E6B /* AppDelegate.swift in Sources */,
+				00F116321BE03D5C002CDCA3 /* HousePickerViewController.swift in Sources */,
+				007233C51BD6F82B00848FFF /* HogwartsHouses.swift in Sources */,
+				0072340F1BD9991600848FFF /* PotionRecipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +499,7 @@
 				004020A61BCDC6EA00FD7E6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		004020A71BCDC6EA00FD7E6B /* Build configuration list for PBXNativeTarget "SortingHatTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +508,7 @@
 				004020A91BCDC6EA00FD7E6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		004020AA1BCDC6EA00FD7E6B /* Build configuration list for PBXNativeTarget "SortingHatUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +517,7 @@
 				004020AC1BCDC6EA00FD7E6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
