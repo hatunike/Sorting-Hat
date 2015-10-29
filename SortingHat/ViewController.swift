@@ -23,7 +23,7 @@ class ViewController: UIViewController, UITextFieldDelegate, HousePickerDelegate
         label.text = "\(name!) : \(house)!!!"
         
         self.view.addSubview(label)
-        
+        print(label.text)
         // 2 - Animating label into place
         UIView.animateWithDuration(0.75, delay: 0.0, usingSpringWithDamping: 0.8, initialSpringVelocity: 0.2, options: UIViewAnimationOptions.CurveEaseInOut, animations: { () -> Void in
             
