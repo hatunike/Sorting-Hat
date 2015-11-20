@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import GameplayKit
 
 
 enum HogwartsHouse{
@@ -18,9 +19,12 @@ enum HogwartsHouse{
     
  static func randomHouse() -> HogwartsHouse {
         
-        var randomInt = Int(arc4random_uniform(UInt32(4)))
+        // var randomInt = Int(arc4random_uniform(UInt32(4)))
+        // This a better random number generator and it makes more sense to use
+        var randomInt = GKRandomSource.sharedRandom().nextIntWithUpperBound(4)
         
-        let randomSquib = Int(arc4random_uniform(UInt32(100)))
+        // let randomSquib = Int(arc4random_uniform(UInt32(100)))
+        let randomSquib = GKRandomSource.sharedRandom().nextIntWithUpperBound(100)
         if randomSquib == 37 || randomSquib == 42 {
             randomInt = 5
         }
